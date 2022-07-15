@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.wrapper:hover{
+  background-color:thistle;
+  box-shadow: inset -1px 5px 20px 0px rgba(0, 0, 0, 0.5);
+}

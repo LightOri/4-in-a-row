@@ -1,0 +1,9 @@
+.wrapper {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 10px solid steelblue;
+    background-color:skyblue;
+}

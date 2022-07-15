@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainArea {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}

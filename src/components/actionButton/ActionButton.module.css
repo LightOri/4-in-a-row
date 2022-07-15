@@ -1,0 +1,19 @@
+.button {
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    font-weight: 700;
+    color: steelblue;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: inset 0px 0px 15px 0px skyblue;
+    color: red;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: inset 0px 0px 15px 0px steelblue;
+}
