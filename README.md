@@ -1,7 +1,4 @@
 # Game "4 in a row"
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
