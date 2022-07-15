@@ -3,17 +3,46 @@
     border: 3px solid steelblue;
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .name {
     width: 100%;
-    max-height: 3rem;
-    padding: 1rem;
+    margin-top: 1rem;
+    height: 3rem;
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
     color: steelblue;
+}
+
+.playerColor {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.playerA {
+    composes: playerColor;
+    background-color: navy;
+}
+
+.playerB {
+    composes: playerColor;
+    background-color: coral;
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    height: 5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color:white;
+    background-color: aquamarine;
 }
 
 .winner {
@@ -22,7 +51,8 @@
 }
 
 .winMessage {
-    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
     width: 100%;
     font-size: 4rem;
